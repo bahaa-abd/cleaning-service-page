@@ -1,13 +1,43 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.icon-stairs {
+  display: inline-block;
+  position: relative;
+  width: 1em;
+  height: 1em;
+  font-size: 32px; /* Scalable */
+  color: #333; /* Icon color */
+}
+
+.icon-stairs::before {
+  content: "";
+  position: absolute;
+  bottom: 72px;
+  left: 69px;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  transform: rotate(90deg);
+  display: block;
+}
+
+.icon-stairs::before {
+  box-shadow: 0em 0em 0 0 currentColor, 0.25em 0em 0 0 currentColor,
+    0.25em 0.25em 0 0 currentColor, 0.5em 0.25em 0 0 currentColor,
+    0.5em 0.5em 0 0 currentColor, 0.75em 0.5em 0 0 currentColor,
+    0.75em 0.75em 0 0 currentColor;
+  width: 0.25em;
+  height: 0.25em;
 }

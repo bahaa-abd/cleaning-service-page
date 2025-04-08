@@ -1,22 +1,18 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Wir sind Rein Star",
+    "paragraph": "Rein Star ist der führende Anbieter von maßgeschneiderten Reinigungsdienstleistungen in Kliniken, Büros, Wohnungen, Schubladen und periodischer Reinigung."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Wir setzen moderne Technologien und sichere Reinigungsmittel ein, um unseren Kunden eine saubere und gesunde Umgebung zu bieten.",
+
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Geschultes und qualifiziertes Team",
+      "Verwendung von hochwertigen und umweltfreundlichen Reinigungsmitteln",
+      "Flexible Dienstleistungen, die zu Ihren Bedürfnissen passen",
+      "100 % Kundenzufriedenheitsgarantie"
     ],
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "Why2": []
   },
   "Gallery": [
     {
@@ -25,7 +21,7 @@
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "Projetect Title",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
@@ -67,66 +63,61 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-hospital-o",
+      "name": "Reinigung von Kliniken",
+      "text": "Umfassende Reinigung zur Gewährleistung einer gesunden und hygienischen Umgebung."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-building",
+      "name": "Büroreinigung",
+      "text": "Regelmäßige Reinigungsdienste für Büros, um eine saubere und organisierte Arbeitsumgebung zu gewährleisten."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-home",
+      "name": "Haus- und Wohnungsreinigung",
+      "text": "Gründliche und regelmäßige Reinigung aller Bereiche im Haus, einschließlich Küche, Bad, Wohnzimmer und Fenster."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-retweet",
+      "name": "Regelmäßige Reinigung",
+      "text": "Wiederkehrende Reinigungsdienste nach einem individuell abgestimmten Zeitplan."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa icon-stairs",
+      "name": "Treppenhausreinigung",
+      "text": "Sauberkeit und Pflege von Eingangsbereichen, Treppenhäusern und Etagenfluren in Wohn- und Geschäftshäusern."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Sehr zuverlässiger Service! Das Team war pünktlich, freundlich und hat alles gründlich gereinigt.\"",
+      "name": "Ahmad M."
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Ich bin begeistert von der Sauberkeit und dem professionellen Auftreten. Absolut empfehlenswert!\"",
+      "name": "Lena S."
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Hervorragende Arbeit! Mein Zuhause war nach der Reinigung wie neu. Vielen Dank!\"",
+      "name": "Fatima A."
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Top Reinigungsfirma. Schnell, gründlich und sehr kundenorientiert. Ich buche sie regelmäßig.\"",
+      "name": "Thomas K."
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Ich war beeindruckt, wie detailgenau gearbeitet wurde. Jeder Winkel wurde gereinigt!\"",
+      "name": "Salma R."
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Sehr flexibel und professionell. Genau das, was ich gesucht habe. Super Service!\"",
+      "name": "Jonas B."
     }
   ],
   "Team": [
@@ -152,12 +143,11 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
+    "address": "Goslar 38642",
     "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "email": "gisonmardiny1@gmail.com",
     "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "instagram": "instagram.com"
   },
   "Features": [
     {
