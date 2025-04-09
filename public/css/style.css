@@ -87,6 +87,7 @@ hr {
   color: #333;
   text-transform: uppercase;
 }
+
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -129,6 +130,23 @@ hr {
   content: "" !important;
   transition: width 0.2s !important;
 }
+
+.navbar-logo {
+  display: inline-block;
+  width: 70px; /* Adjust width to fit the desired size */
+  padding: 10px 15px;
+  height: auto; /* Maintain aspect ratio */
+  text-align: center;
+}
+
+.navbar-link {
+  position: relative;
+  top: -13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-toggle {
   border-radius: 0;
 }
@@ -222,7 +240,6 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -584,6 +601,39 @@ label {
   color: #608dfd;
   background: #fff;
 }
+
+/* WeAreHere Section */
+#we-are-here {
+  padding: 154px 0 1px 0px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  color: #fff;
+}
+
+#we-are-here h2 {
+  color: #fff;
+}
+
+#we-are-here .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+
+#we-are-here p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+/* Wisdom Section */
+#wisdom {
+  padding: 200px 0 83px 0px;
+  background: #f6f6f6;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
@@ -600,9 +650,95 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  background: linear-gradient(
+      to right bottom,
+      #6372ff 0%,
+      #5ca9fb 49%,
+      #f6f6f6 50%
+    ),
+    linear-gradient(-50deg, #f6f6f6 16px, #000 0);
+}
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  background: linear-gradient(
+      to right top,
+      #6372ff 0%,
+      #5ca9fb 49%,
+      #f6f6f6 50%
+    ),
+    linear-gradient(+50deg, #6372ff 16px, #000 0);
+}
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.6rem;
+  }
+  h3 {
+    font-size: 2.4rem;
+  }
+  h4 {
+    font-size: 2.2rem;
+  }
+  h5 {
+    font-size: 2rem;
+  }
+  h6 {
+    font-size: 0.9rem;
+  }
+  .intro p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+  }
+}
+
+/* Small screens (phones) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2.45rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+  h4 {
+    font-size: 2rem;
+  }
+  h5 {
+    font-size: 0.9rem;
+  }
+  h6 {
+    font-size: 0.8rem;
+  }
+  .intro p {
+    font-size: 18px;
   }
 }
 

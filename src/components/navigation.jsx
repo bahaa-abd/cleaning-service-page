@@ -47,7 +47,12 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            rein star
+            <div className="navbar-link">
+              <span>
+                <img src="img/logo.jpg" alt="Logo" className="navbar-logo" />
+              </span>
+              <span> rein star</span>
+            </div>
           </a>
         </div>
 

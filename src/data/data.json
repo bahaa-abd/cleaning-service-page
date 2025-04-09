@@ -1,7 +1,7 @@
 {
   "Header": {
-    "title": "Wir sind Rein Star",
-    "paragraph": "Rein Star ist der führende Anbieter von maßgeschneiderten Reinigungsdienstleistungen in Kliniken, Büros, Wohnungen, Schubladen und periodischer Reinigung."
+    "title": "Rein Star für Haushaltreinigung",
+    "paragraph": "Rein Star ist der führende Anbieter von maßgeschneiderten Reinigungsdienstleistungen in Praxen, Büros, Wohnungen, Büros und periodischer Reinigung."
   },
   "About": {
     "paragraph": "Wir setzen moderne Technologien und sichere Reinigungsmittel ein, um unseren Kunden eine saubere und gesunde Umgebung zu bieten.",
@@ -64,7 +64,7 @@
   "Services": [
     {
       "icon": "fa fa-hospital-o",
-      "name": "Reinigung von Kliniken",
+      "name": "Reinigung von Praxen",
       "text": "Umfassende Reinigung zur Gewährleistung einer gesunden und hygienischen Umgebung."
     },
     {

@@ -8,6 +8,10 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import { WeAreHere } from "./components/weAreHere";
+import { Wisdom } from "./components/wisdom";
+import AOS from "aos";
+import "aos/dist/aos.css"; // Import AOS styles
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -16,6 +20,8 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  AOS.init();
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
@@ -24,12 +30,14 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
-      {/* <Gallery data={landingPageData.Gallery} /> */}
       <Testimonials data={landingPageData.Testimonials} />
-      {/* <Team data={landingPageData.Team} /> */}
+      <div class="skew-c"></div>
+      <WeAreHere />
+      <div class="skew-cc"></div>
+      <Wisdom />
+      <div class="skew-c"></div>
       <Contact data={landingPageData.Contact} />
     </div>
   );
