@@ -34,7 +34,7 @@ const App = () => {
         <title>Rein Star - Professional Cleaning Services</title>
         <meta
           name="description"
-          content="Rein Star provides high-quality and affordable home and office cleaning services in Goslar. Contact us at +1 123 456 1234 or rein-star@outlook.de."
+          content="Rein Star provides high-quality and affordable home and office cleaning services in Goslar. Contact us at +49 1556 3567580 or rein-star.goslar@outlook.de ."
         />
         <meta
           name="keywords"
@@ -42,8 +42,8 @@ const App = () => {
         />
         <meta name="robots" content="index, follow" />
         <meta name="author" content="Rein Star" />
-        <meta name="contact:email" content="rein-star@outlook.de" />
-        <meta name="contact:phone_number" content="+1 123 456 1234" />
+        <meta name="contact:email" content="rein-star.goslar@outlook.de" />
+        <meta name="contact:phone_number" content="+49 1556 3567580" />
         <meta name="contact:address_locality" content="Goslar" />
         <meta name="contact:postal_code" content="38642" />
 
@@ -53,7 +53,7 @@ const App = () => {
         />
         <meta
           property="og:description"
-          content="Book professional home and office cleaning in Goslar with Rein Star. Call us at +1 123 456 1234."
+          content="Book professional home and office cleaning in Goslar with Rein Star. Call us at +49 1556 3567580."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://rein-star.vercel.app" />
@@ -61,8 +61,8 @@ const App = () => {
           property="og:image"
           content="https://rein-star.vercel.app/og-image.jpg"
         />
-        <meta property="og:email" content="rein-star@outlook.de" />
-        <meta property="og:phone_number" content="+1 123 456 1234" />
+        <meta property="og:email" content="rein-star.goslar@outlook.de" />
+        <meta property="og:phone_number" content="+49 1556 3567580" />
         <meta property="og:locality" content="Goslar" />
         <meta property="og:postal-code" content="38642" />
         <meta property="og:street-address" content="Goslar 38642" />
