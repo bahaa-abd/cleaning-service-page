@@ -56,10 +56,10 @@ const App = () => {
           content="Book professional home and office cleaning in Goslar with Rein Star. Call us at +49 1556 3567580."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rein-star.vercel.app" />
+        <meta property="og:url" content="https://reinstar-goslar.de" />
         <meta
           property="og:image"
-          content="https://rein-star.vercel.app/og-image.jpg"
+          content="https://reinstar-goslar.de/og-image.jpg"
         />
         <meta property="og:email" content="rein-star.goslar@outlook.de" />
         <meta property="og:phone_number" content="+49 1556 3567580" />
@@ -68,7 +68,7 @@ const App = () => {
         <meta property="og:street-address" content="Goslar 38642" />
         <meta property="og:see_also" content="https://fb.com" />
         <meta property="og:see_also" content="https://instagram.com" />
-        <link rel="canonical" href="https://rein-star.vercel.app" />
+        <link rel="canonical" href="https://reinstar-goslar.de" />
       </Helmet>
 
       <Navigation />

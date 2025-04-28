@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rein-star.vercel.app/sitemap.xml
+Sitemap: https://reinstar-goslar.de/sitemap.xml
